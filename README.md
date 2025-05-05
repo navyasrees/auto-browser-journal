@@ -1,7 +1,6 @@
-# React Chrome Extension Template
+# Auto Browser Journal
 
-This is a template for creating a Chrome extension using React and [Vite](https://vitejs.dev/) with TypeScript.
-
+A Chrome extension that automatically tracks and journals your browser activity, built with React and [Vite](https://vitejs.dev/) with TypeScript.
 
 ## Getting Started
 
@@ -13,17 +12,17 @@ Make sure you have [Node.js](https://nodejs.org/) (version 18+ or 20+) installed
 
 1. Clone or fork the repository :
 
-    ```sh
-    # To clone
-    git clone https://github.com/5tigerjelly/chrome-extension-react-template
-    cd chrome-extension-react-template
-    ```
+   ```sh
+   # To clone
+   git clone https://github.com/5tigerjelly/chrome-extension-react-template
+   cd chrome-extension-react-template
+   ```
 
 2. Install the dependencies:
 
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 
 ## 🏗️ Development
 
@@ -35,7 +34,7 @@ npm run dev
 
 This will start the Vite development server and open your default browser.
 
-## 📦 Build 
+## 📦 Build
 
 To create a production build:
 

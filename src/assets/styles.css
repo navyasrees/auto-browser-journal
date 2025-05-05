@@ -1,0 +1,113 @@
+/* Popup specific styles */
+.popup-view {
+  width: 300px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.popup-view .header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.popup-view h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.popup-view .today-summary {
+  margin-bottom: 16px;
+}
+
+.popup-view .total-time {
+  margin-bottom: 16px;
+}
+
+.popup-view .total-time h3 {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.popup-view .total-time p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.popup-view .top-sites h3 {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.popup-view .site-stat {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.popup-view .site-stat .rank {
+  width: 20px;
+  color: #666;
+}
+
+.popup-view .site-stat .site-title {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+}
+
+.popup-view .site-stat .duration {
+  color: #666;
+  margin-left: 8px;
+}
+
+.popup-view .view-dashboard {
+  text-align: center;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+}
+
+.popup-view .dashboard-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #42a5f5;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.popup-view .dashboard-link:hover {
+  background-color: #1e88e5;
+}
+
+/* Tracking toggle button styles */
+.tracking-toggle {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tracking-toggle.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tracking-toggle.paused {
+  background-color: #f44336;
+  color: white;
+}
